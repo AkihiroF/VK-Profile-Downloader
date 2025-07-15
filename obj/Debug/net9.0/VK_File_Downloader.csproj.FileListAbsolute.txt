@@ -1,0 +1,15 @@
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/bin/Debug/net9.0/VK_File_Downloader
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/bin/Debug/net9.0/VK_File_Downloader.deps.json
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/bin/Debug/net9.0/VK_File_Downloader.runtimeconfig.json
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/bin/Debug/net9.0/VK_File_Downloader.dll
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/bin/Debug/net9.0/VK_File_Downloader.pdb
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/obj/Debug/net9.0/VK_File_Downloader.GeneratedMSBuildEditorConfig.editorconfig
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/obj/Debug/net9.0/VK_File_Downloader.AssemblyInfoInputs.cache
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/obj/Debug/net9.0/VK_File_Downloader.AssemblyInfo.cs
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/obj/Debug/net9.0/VK_File_Downloader.csproj.CoreCompileInputs.cache
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/obj/Debug/net9.0/VK_File_Downloader.sourcelink.json
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/obj/Debug/net9.0/VK_File_Downloader.dll
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/obj/Debug/net9.0/refint/VK_File_Downloader.dll
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/obj/Debug/net9.0/VK_File_Downloader.pdb
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/obj/Debug/net9.0/VK_File_Downloader.genruntimeconfig.cache
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/obj/Debug/net9.0/ref/VK_File_Downloader.dll
