@@ -43,6 +43,20 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.12.1, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "YoutubeDLSharp": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

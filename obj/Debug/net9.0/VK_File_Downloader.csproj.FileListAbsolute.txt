@@ -13,3 +13,8 @@
 /Users/akihirof/Documents/Projects/VK-Profile-Downloader/obj/Debug/net9.0/VK_File_Downloader.pdb
 /Users/akihirof/Documents/Projects/VK-Profile-Downloader/obj/Debug/net9.0/VK_File_Downloader.genruntimeconfig.cache
 /Users/akihirof/Documents/Projects/VK-Profile-Downloader/obj/Debug/net9.0/ref/VK_File_Downloader.dll
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/obj/Debug/net9.0/VK_File_Downloader.csproj.AssemblyReference.cache
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/bin/Debug/net9.0/HtmlAgilityPack.dll
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/obj/Debug/net9.0/VK_File_.764AE44F.Up2Date
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/akihirof/Documents/Projects/VK-Profile-Downloader/bin/Debug/net9.0/YoutubeDLSharp.dll

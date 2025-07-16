@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VK_File_Downloader")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1d50ede74d748f35ead8461288133034c5337fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c49ddd898fda5bb8605edab9585f51733d997364")]
 [assembly: System.Reflection.AssemblyProductAttribute("VK_File_Downloader")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VK_File_Downloader")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
