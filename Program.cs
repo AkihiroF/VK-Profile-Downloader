@@ -1,7 +1,5 @@
 ﻿using System.Text;
 using HtmlAgilityPack;
-using YoutubeDLSharp;
-using YoutubeDLSharp.Options;
 
 namespace VK_File_Downloader;
 
@@ -9,33 +7,30 @@ class Program
     {
         static async Task Main(string[] args)
         {
-            //await YoutubeDLSharp.Utils.DownloadYtDlp();
-            //await YoutubeDLSharp.Utils.DownloadFFmpeg();
+            
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-            Console.Write("Путь к папке с index.html: ");
+            Console.Write("Path to folder with index.html: ");
             var folder = Console.ReadLine()!;
             var indexPath = Path.Combine(folder, "index.html");
             if (!File.Exists(indexPath))
             {
-                Console.WriteLine("Файл index.html не найден.");
+                Console.WriteLine("File index.html not found.");
                 return;
             }
-            // Собираем все внутренние ссылки на HTML-страницы
             var pages = CollectAllPages(indexPath, folder);
-            Console.WriteLine($"Найдено {pages.Count} страниц для обработки.");
+            Console.WriteLine($"Found {pages.Count} page for proceed.");
 
             var downloader = new MediaDownloader();
             foreach (var page in pages)
             {
-                Console.WriteLine($"Обрабатываю {Path.GetFileName(page)} ...");
+                Console.WriteLine($"Processed {Path.GetFileName(page)} ...");
                 var count = await downloader.ProcessPageAsync(page);
-                Console.WriteLine($" → скачано и заменено {count} ресурсов.");
+                Console.WriteLine($" → Downloaded and replaced {{count}} resources.");
             }
 
-            Console.WriteLine("Готово.");
+            Console.WriteLine("Done.");
         }
-
-        // Собираем все *.html, на которые ссылаются через <a href>
+        
         private static HashSet<string> CollectAllPages(string startPage, string rootFolder)
         {
             var toVisit = new Queue<string>();
@@ -70,23 +65,5 @@ class Program
             }
 
             return visited;
-        }
-
-        private static async void TestDownload(string outputPath)
-        {
-            var _yt = new YoutubeDL();
-            _yt.YoutubeDLPath = YoutubeDLSharp.Utils.YtDlpBinaryName;
-            _yt.FFmpegPath = Utils.FfmpegBinaryName;
-            _yt.OutputFolder = outputPath;
-            
-            var opts = new OptionSet()
-            {
-                MergeOutputFormat = DownloadMergeFormat.Mp4
-            };
-
-            var result = await _yt.RunVideoDownload("https://vk.com/video526616429_456240161",overrideOptions:opts);
-            if (!result.Success)
-                Console.WriteLine($"Ошибка yt-dlp: {result.ErrorOutput}");
-            Console.WriteLine(result.Data);
         }
     }
