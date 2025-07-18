@@ -1,13 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "dm5rRkmKJDk=",
+  "dgSpecHash": "/S3IQLj2YPM=",
   "success": true,
   "projectFilePath": "/Users/akihirof/Documents/Projects/VK-Profile-Downloader/VK_File_Downloader.csproj",
   "expectedPackageFiles": [
     "/Users/akihirof/.nuget/packages/htmlagilitypack/1.12.1/htmlagilitypack.1.12.1.nupkg.sha512",
+    "/Users/akihirof/.nuget/packages/microsoft.net.illink.tasks/9.0.7/microsoft.net.illink.tasks.9.0.7.nupkg.sha512",
     "/Users/akihirof/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/akihirof/.nuget/packages/system.text.encoding.codepages/9.0.7/system.text.encoding.codepages.9.0.7.nupkg.sha512",
-    "/Users/akihirof/.nuget/packages/youtubedlsharp/1.1.2/youtubedlsharp.1.1.2.nupkg.sha512"
+    "/Users/akihirof/.nuget/packages/youtubedlsharp/1.1.2/youtubedlsharp.1.1.2.nupkg.sha512",
+    "/Users/akihirof/.nuget/packages/microsoft.netcore.app.runtime.win-x64/9.0.7/microsoft.netcore.app.runtime.win-x64.9.0.7.nupkg.sha512",
+    "/Users/akihirof/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/9.0.7/microsoft.aspnetcore.app.runtime.win-x64.9.0.7.nupkg.sha512",
+    "/Users/akihirof/.nuget/packages/microsoft.netcore.app.host.win-x64/9.0.7/microsoft.netcore.app.host.win-x64.9.0.7.nupkg.sha512"
   ],
   "logs": []
 }
